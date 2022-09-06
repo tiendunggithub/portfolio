@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    /* position: relative; */
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* grid-template-columns: repeat(3, 32.36%); */
+    grid-gap: 20px;
+    padding: 20px;
+}
+.wrapper .card{
+    width: 100%;
+    background: #fff;
+}
+.wrapper .card .card-img{
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+.wrapper .card .card-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
